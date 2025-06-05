@@ -1,0 +1,38 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "cainode": "^1.1.5",
+    "cheerio": "1.0.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "fake-useragent": "^1.0.1",
+    "file-type": "^19.6.0",
+    "form-data": "^4.0.1",
+    "fs": "^0.0.1-security",
+    "moment-timezone": "^0.5.41",
+    "mongodb": "6.12.0",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.2.6",
+    "qs": "^6.10.1",
+    "request": "^2.88.2",
+    "ssl-express-www": "^3.0.7",
+    "translate-google-api": "^1.0.4",
+    "yt-search": "2.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
